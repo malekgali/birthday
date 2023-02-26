@@ -1,0 +1,68 @@
+<div class="White">
+    <div>
+      <i Class="Fas Fa-Phone">❢ Our WhatsApp: 50910006</i>
+    </div>
+  </div>
+
+
+
+  Div {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background: #3ac371;
+  position: Absolute;
+  left: 50%;
+  top: 50%;
+  transform: Translate(-50%, -50%);
+}
+.White {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px 2px Rgba(0, 0, 0, 0.3);
+}
+.White::before {
+  content: "";
+  top: 65px;
+  left: -15px;
+  border-width: 20px;
+  border-style: Solid;
+  border-color: Transparent #fff Transparent Transparent;
+  position: Absolute;
+  transform: Rotate(-50deg) RotateX(-55deg);
+}
+.White::after {
+  content: "";
+  top: 63px;
+  left: -4px;
+  border-width: 15px;
+  border-style: Solid;
+  border-color: Transparent #3ac371 Transparent Transparent;
+  position: Absolute;
+  transform: Rotate(-51deg) RotateX(-50deg);
+}
+.Fas {
+  left: 17px;
+  top: 18px;
+  position: Absolute;
+  font-size: 35px;
+  color: #fff;
+  transform: Rotate(90deg);
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: rgb(221, 0, 0);
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
